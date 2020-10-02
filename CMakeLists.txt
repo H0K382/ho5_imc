@@ -18,3 +18,4 @@ add_library(homework.hpp homework.cpp)
 
 add_executable(Hello hello.cpp)
 add_executable(Homework homework.cpp)
+target_link_libraries(Homework imc)
